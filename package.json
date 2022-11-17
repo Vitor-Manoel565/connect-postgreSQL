@@ -1,0 +1,15 @@
+{
+  "name": "connect",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start": "nodemon server.ts"
+  }
+}
